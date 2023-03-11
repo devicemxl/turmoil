@@ -11,7 +11,7 @@ import pandas as pd
 from turmoil import operations as op
 from IPython.display import display, HTML
 #
-def CreateDataDictionary(Dataset):
+def GetDataDictionary(Dataset):
   # ============================ Variables and unique values
   chng={}
   for i in Dataset.columns:
@@ -97,7 +97,6 @@ def CreateDataDictionary(Dataset):
   
   return Dta
 
-def GetDataDictionary(Dataset):
-    Dta=CreateDataDictionary(Dataset)
+def Display(Dataset):
+    Dta=GetDataDictionary(Dataset)
     display(HTML(Dta.to_html()))
-    return Dta
