@@ -7,29 +7,8 @@
 #     ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝╚══════╝
 #      
 [build-system]
-requires = ["setuptools>=40.8"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "turmoil"
-version = "0.0.1"
-authors = [
-  { name="David Ochoa", email="david@bajaanalytics.com" }
-]
-maintainers = [
-  { name="David Ochoa", email="david@bajaanalytics.com" }
-]
-description = "Eliminates Pre-process and EDA's turmoil via Data Dictionary"
-keywords = ["dataset", "eda", "preprocessing"]
-readme = "README.md"
-requires-python = ">=3.7"
-license = {text = "Proprietary"}
-classifiers = [
-    "Development Status :: 1 - Planning",
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
-    "Topic :: Scientific/Engineering :: Information Analysis"
-]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
 dependencies = [
   'pandas > 1.0.0',
   'PyYAML > 5.1',
