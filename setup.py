@@ -12,7 +12,7 @@ setup(
     name='turmoil',
     version='0.0.1',
     packages=find_packages(),
-    py_modules=['plot','munging'],
+    py_modules=['DataDictionary','operations'],
     #packages=find_packages('src', exclude=['test*']),
     #packages=['turmoil'],
     description="Eliminates Pre-process and EDA's turmoil via Data Dictionary",

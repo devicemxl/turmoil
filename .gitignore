@@ -1,4 +1,5 @@
-*.pyc
+*.ipybn
+.ipybn*/
 test*
-.github/workflows/
-scr/turmoil/__pycache__/
+.github/
+__pycache__/
