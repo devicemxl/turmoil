@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=40.8"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -23,6 +23,8 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Information Analysis"
 ]
 dependencies = [
+  "requests",
+  'importlib-metadata; python_version<"3.8"',
   'pandas > 1.0.0',
   'PyYAML > 5.1',
   'fold_to_ascii > 1.0.0',
