@@ -6,5 +6,5 @@
 #     ██║   ╚██████╔╝██║  ██║██║ ╚═╝ ██║╚██████╔╝██║███████╗
 #     ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝╚══════╝
 #      
-from .DataDictionary import *
-from .operations import *
+from DataDictionary import *
+from operations import *
