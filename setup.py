@@ -22,3 +22,5 @@ setup(
     license='CC BY-NC-SA 4.0',
     zip_safe=False,
 )
+# https://stackoverflow.com/questions/50585246/pip-install-creates-only-the-dist-info-not-the-package
+# https://www.freecodecamp.org/news/how-to-create-and-upload-your-first-python-package-to-pypi/
