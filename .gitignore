@@ -1,2 +1,4 @@
 *.pyc
 test*
+.github/workflows/
+scr/turmoil/__pycache__/
