@@ -28,6 +28,8 @@ dependencies = [
   'pandas > 1.0.0',
   'PyYAML > 5.1',
   'fold_to_ascii > 1.0.0',
+  IPython,
+  ipywidgets,
 ]
 
 [project.urls]
