@@ -15,10 +15,10 @@ description = "Eliminates Pre-process and EDA's turmoil via Data Dictionary"
 keywords = ["dataset", "eda", "preprocessing"]
 readme = "README.md"
 requires-python = ">=3.7"
+license = {text = "Proprietary"}
 classifiers = [
     "Development Status :: 1 - Planning",
     "Programming Language :: Python :: 3",
-    "License :: CC BY-NC-SA 4.0",
     "Operating System :: OS Independent",
     "Topic :: Scientific/Engineering :: Information Analysis"
 ]
