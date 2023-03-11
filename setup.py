@@ -11,7 +11,8 @@ from setuptools import setup, find_packages
 setup(
     name='turmoil',
     version='0.0.1',
-    packages=find_packages('src', exclude=['test*']),
+    packages=find_packages(),
+    #packages=find_packages('src', exclude=['test*']),
     #packages=['turmoil'],
     description="Eliminates Pre-process and EDA's turmoil via Data Dictionary",
     url='https://github.com/devicemxl/turmoil/',
