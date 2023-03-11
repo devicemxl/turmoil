@@ -8,7 +8,7 @@
 #                   
 from numpy import percentile
 import pandas as pd
-import operations as op
+from turmoil import operations as op
 from IPython.display import display, HTML
 #
 def CreateDataDictionary(Dataset):
