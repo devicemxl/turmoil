@@ -17,8 +17,9 @@ There are many ideas suggested, this is simply a personal long term project.
 1. Create a Data Dictionay to help in the Dataset understaning stage
 2. Help to normalize characters in dataset:
         * Columns and text values with munging tools (spaces, ascii127, etc)
-3. Start the DOCS
-4. Configure stages for EDA graphs with sns and data dictionary
+3. Short Help: function tables printing markdown
+4. Start the DOCS
+5. Configure stages for EDA graphs with sns and data dictionary
 
 #### Medium term
 
