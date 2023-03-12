@@ -46,22 +46,3 @@ def σ(nStd,Data):
 
 # display(HTML(Data.to_html())), print('\n',Data)
 
-'''
-Rules
-
-Metrics to consider data [dta] as:
-
-SI dta == texto: Categorico, revisar manual
-SI-NO:
-    SI Skewness dta > | 1 | Y unicos > 20:
-        dta = log10(dta);
-    SI-NO: none
-    ---
-    SI 3σ^4 < 1 Y  unicos > 20:
-        SI log10( (Filas - unicos) / unicos ) > 2:
-            dta == continuo
-        SI-NO: 
-            dta == rango //Nota: para eda se toma como ordinal, tratar de hacer bins y volver ordinal
-    SI-NO:
-        dta == ordinal
-'''

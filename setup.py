@@ -13,7 +13,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 #
 setuptools.setup(
     name='turmoil',
-    version='0.0.1',
+    version='0.1.0',
     description="Eliminates Pre-process and EDA's turmoil via Data Dictionary",
     long_description = long_description,
     long_description_content_type = "text/markdown",
